@@ -1,0 +1,240 @@
+/*Arquivo CSS*/
+
+/*Divisões de pagina*/
+body{
+	background-color:rgb(255,232,221);
+	font-family: sans-serif, cursive, fantasy, monospace;
+}
+
+#div1{
+	background-image:url(regiao1.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	/*background-attachment:fixed;*/
+	background-size:1500px 280px;
+	height:250px;
+	top:80px;
+	left:20px;
+	margin: 0px 20px 5px 20px;
+	border-width: 3px; 
+	border-style:solid; 
+	border-color:orange; 		
+}	
+	
+div#div2{
+	background-image:url(regiao2.jpg);
+	opacity:0.9;
+	float:left;
+	margin: 0px 0px 20px 20px;
+	height:380px;
+	width:300px;
+	border-width: 3px; 
+	border-style:solid; 
+	border-color:orange; 
+
+}									
+
+div#div3{
+	background-color:rgb(254,245,184);
+	margin: 0px 20px 20px 330px;
+	border-width: 3px; 
+	border-style:solid; 
+	border-color:orange; 
+}									
+
+/*Formatações de texto e links*/
+spam#data {
+	color:black; 
+	font-weight:bolder;
+	text-align:middle;
+	margin-left:20px;
+	border:2px dotted orange;
+}
+	
+h2#h2{
+	text-align:center;
+}
+
+h3#h3{
+	text-align:center;
+}
+
+p{
+	margin:20px 20px 20px 20px; 
+	text-align: justify;
+}
+		  
+p#p{
+	margin:30px 20px 20px 20px; 
+	text-align: justify;
+} 
+		  
+a#linksobre{
+	position:relative;
+	top:20px;
+	left:20px;
+}
+
+div#div2 h3 {
+	color:rgb(80,39,39); 
+}
+
+div#div2 a {
+	color:white; 
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:5px;
+	border-radius:5%;
+}
+
+/*
+div#div2 ul li a:link{
+	color:orange; 
+	text-shadow:2px;
+	font-weight:bold;
+}
+
+div#div2 ul li a:hover {
+	color:red; 
+	text-decoration:underline;
+	font-weight:bold;
+	text-shadow:2px;
+}*/
+
+div#div3 a {
+	color:blue;
+}
+
+div#div3 ul li a:link{
+	color:orange;
+	margin-top:20px;
+}
+
+div#div3 ul li a:hover {
+	color:orange;
+	text-decoration:underline;
+}
+
+div#div3 li a:active {
+	color:yellow;
+	text-decoration:underline;
+}
+
+div#div3 a:visited {
+	color:orange;
+	text-decoration:underline;
+}
+
+/* Formatação de listas*/
+ul.menu{
+	list-style:none;
+	margin:0px 0px 0px 70px;
+	padding:2px;
+}
+
+ul{
+	list-style:none;
+}
+
+ol {
+	list-style:none;
+}
+
+div#div2  li {
+	margin: 5px 0px 0px  0px;
+}
+
+div#div3  li {
+	margin:5px;
+	padding:1px;
+}
+
+/*Tabelas*/	 
+ table{
+	margin-bottom: 20px;
+}
+
+table.Banco_Dados{
+	margin:20px;
+	border:2px orange outset;
+	background-color:rgb(255,232,221);
+ }
+ 
+ table.Banco_Dados td {
+	border:2px orange outset;
+	font-size: 11pt;
+ }
+ 
+ table.Banco_Dados th {
+	border:2px orange outset;
+		font-size: 14pt;
+ }
+ 
+ ul.direcionar{
+	list-style:none;
+	font-size:12pt;
+	
+}	
+
+
+/* Formulários */
+
+form {
+	margin-bottom:0px;
+}
+
+ fieldset {
+	margin: 20px 20px 10px 20px;
+	background-color:rgb(255,232,221);
+	box-shadow:black 2px 2px;
+	border:4px orange outset;
+	border-color:orange;
+ }
+ 
+ legend {
+	color:orange;
+	font-size: 15pt;
+	font-weight:bolder;
+ }
+ 
+ table.campos_cadastro {
+	margin-left:20px;	
+
+ }
+ 
+ table.campos_cadastro tr td {
+	padding: 2px;
+ }
+ 
+ label{
+	font-weight:bolder;
+	color:rgb(80,39,39);
+	margin-top:40px;
+ }
+ 
+ input.form_botoes {
+	margin: 0px 0px 20px 20px;
+	width:120px;
+	height:40px;
+ }
+ 
+  table.login {
+	width:100px;
+	margin-bottom:0px;
+ }
+ 
+ fieldset.login {
+	background-color:rgb(255,232,221);
+	box-shadow:black 2px 2px;
+	border:4px orange outset;
+	margin-left:10px;
+ }
+ 
+  legend.login {
+	color:rgb(80,39,39);
+	font-size: 15pt;
+	font-weight:bolder;
+ }
+
+ 
+													
